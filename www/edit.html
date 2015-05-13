@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--         <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">  -->
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap-datetimepicker.min.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+       <!--  <link rel="stylesheet" href="css/jquery.mobile-1.4.5.css" /> -->
+        <script src="js/jquery.js"></script>
+        <script src="js/bootstrap-datetimepicker.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <title>Food Buddy</title>
+    </head>
+<body>
+    <div class="header">
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" 
+             data-target="#list">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <h3 id="title">EDIT PROFILE</h3>     
+            </div>
+            <div class="collapse navbar-collapse" id="list">
+                <ul class="nav navbar-nav">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="profile.html#">Profile</a></li>
+                    <li><a href="notification.html#">Notification</a></li>
+                    <li><a href="#">Log out</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="content">
+        <form class="edit_form" action="#" method="post">
+            <div class="col-xs-4">
+                <img src="img/profilepic.jpg">
+            </div>
+            <div class="col-xs-8">
+                <input type="text" class="form-control" name="fullname" id="fullname" value="Xiaowei Zhang">
+                <input type="text" class="form-control" name="location" id="location" value="Seattle, WA">
+            </div>
+            <div class="col-xs-12">
+                <select name="select-gender" id="select-gender" class="form-control">
+                    <option value="male">Male</option>
+                    <option value="female" selected>Female</option>
+                </select>
+                <input type="email" class="form-control" name="emailAddr" id="emailAddr" value="jiemin218@gmail.com">
+                <input type="text" class="form-control" name="phone" id="phone" value="2066969151">
+                <div class="controls input-append date form_date" data-date="" data-date-format="dd MM yyyy" data-link-field="dtp_input2" data-link-format="yyyy-mm-dd">
+                    <input class="form-control" size="16" type="text" value="28 January 1991">
+                    <span class="add-on"><i class="icon-remove"></i></span>
+                    <span class="add-on"><i class="icon-th"></i></span>
+                </div>
+                <input type="hidden" id="dtp_input2" value="" />
+                <script type="text/javascript">
+                    $('.form_datetime').datetimepicker({
+                        //language:  'fr',
+                        weekStart: 1,
+                        todayBtn:  1,
+                        autoclose: 1,
+                        todayHighlight: 1,
+                        startView: 2,
+                        forceParse: 0,
+                        showMeridian: 1
+                    });
+                    $('.form_date').datetimepicker({
+                        language:  'fr',
+                        weekStart: 1,
+                        todayBtn:  1,
+                        autoclose: 1,
+                        todayHighlight: 1,
+                        startView: 2,
+                        minView: 2,
+                        forceParse: 0
+                    });
+                    $('.form_time').datetimepicker({
+                        language:  'fr',
+                        weekStart: 1,
+                        todayBtn:  1,
+                        autoclose: 1,
+                        todayHighlight: 1,
+                        startView: 1,
+                        minView: 0,
+                        maxView: 1,
+                        forceParse: 0
+                    });
+                </script>
+                <input type="text" class="form-control" name="profession" id="profession" value="Student">
+                
+                <label for="tags">My Tags (split with comma)</label>
+                <textarea class="form-control" rows="3" id="tags">Thai Food,Chinses Food, Spicy Food</textarea>
+                <button type="submit" value="save" class="btn btn-default green">
+                    <span>Save</span>
+                </button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

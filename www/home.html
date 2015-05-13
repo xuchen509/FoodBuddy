@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--         <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">  -->
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+       <!--  <link rel="stylesheet" href="css/jquery.mobile-1.4.5.css" /> -->
+        <script src="js/jquery.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <title>Food Buddy</title>
+    </head>
+<body>
+    <div class="header">
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" 
+             data-target="#list">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <h3 id="title">HOME</h3>     
+            </div>
+            <div class="collapse navbar-collapse" id="list">
+                <ul class="nav navbar-nav">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="profile.html#">Profile</a></li>
+                    <li><a href="notification.html#">Notification</a></li>
+                    <li><a href="#">Log out</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="content">
+        <div class="filter">
+            <a class="btn btn-default" href="home.html?recent" role="button" value="recent">Recent</a>
+            <a class="btn btn-default" href="home.html?distance" role="button" value="distance">Distance</a>
+            <a class="btn btn-default" href="home.html?price" role="button" value="price">Price</a>
+        </div>
+        <div class="container">
+            <div class="row event" onclick="location.href='event.html';">
+                <div class="col-xs-4">
+                    <img class="profilepic" src="img/profilepic.jpg">
+                </div>
+                <div class="col-xs-8 list">
+                    <ul>
+                        <li><img src="img/initiator-icon.png"><span>Xiaowei Zhang </span></li>
+                        <li><img src="img/time-icon.png"><span>Mondy 5:00 PM </span></li>
+                        <li><img src="img/location-icon.png"><span>China First </span></li>
+                        <li><img src="img/price-icon.png"><span><img src="img/logo.png"></span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row event" onclick="location.href='event.html';">
+                <div class="col-xs-4">
+                    <img class="profilepic" src="img/profilepic.jpg">
+                </div>
+                <div class="col-xs-8 list">
+                    <ul>
+                        <li><img src="img/initiator-icon.png"><span>Xiaowei Zhang </span></li>
+                        <li><img src="img/time-icon.png"><span>Mondy 5:00 PM </span></li>
+                        <li><img src="img/location-icon.png"><span>China First </span></li>
+                        <li><img src="img/price-icon.png"><span><img src="img/logo.png"></span></li>
+                    </ul>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <div class="footer"> <a href="create.html"><img src="img/plus.png"></a></div>
+</body>
+</html>

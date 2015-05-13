@@ -1,0 +1,206 @@
+/* the main app */
+/* navigation */
+.header{
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	color: #fff;
+	text-align: center;
+	z-index: 1;
+}
+.navbar-default, .navbar-toggle, #list{
+	background: #9cc !important;
+	border: 0px;
+}
+.navbar-toggle{
+	position: absolute;
+	left: 10px;
+	top: 5px;
+	border: 0px;
+}
+.icon-bar{
+	background-color: #fff !important;
+}
+#list li a{
+	color: #fff;
+}
+#list li:hover{
+	background: #b3dcce;
+}
+/* footer */
+.footer{
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	text-align: center;
+	height: 50px;
+	background: #9cc;
+	color: #fff;
+}
+.footer img{
+	width: 40px;
+	margin: 5px;
+}
+/*  home content */
+.content{
+	width: 100%;
+	position: relative;
+	margin-top: 50px;
+	margin-bottom: 70px;
+}
+.filter{
+	text-align: center;
+	padding: 20px 0 0 10px;
+}
+.event{
+	border-bottom: 1px solid #ccc;
+	padding: 15px 0 8px 0;
+}
+.event:hover{
+	background: #e5f8ee;
+}
+.profilepic{
+	width: 100%;
+	margin-left: 5px;
+}
+.list ul{
+	padding: 0px;
+	list-style-type: none;
+}
+.list img{
+	width: 15px;
+	margin-right: 10px;
+}
+/* event content*/
+.top{
+	height: 190px;
+	width: 100%;
+	color: #fff;
+}
+.background{
+	position: absolute;
+	top: 0;
+	height: 200px;
+	width: 100%;
+	-webkit-filter: blur(3px);
+  	-moz-filter: blur(3px);
+  	-o-filter: blur(3px);
+  	-ms-filter: blur(3px);
+  	filter: blur(3px);
+  	z-index: -1;
+}
+.top .text{
+	text-align: center;
+	vertical-align: middle;
+	padding: 30px;
+}
+.top h3{
+	font-weight: normal;
+}
+.middle, .bottom{
+	width: 100%;
+	background: #fff;
+}
+.middle .list ul li{
+	font-size: 16px;
+	height: 26px;
+}
+.people img, .msg img{
+	width: 40px;
+	border-radius: 20px;
+	margin: 0 10px 10px 0;
+}
+.people p{
+	color: #aaa;
+}
+.people h4{
+	text-align: center;
+}
+.green{
+	background: #054950;
+	width: 100%;
+	color: #fff;
+}
+.green:hover{
+	background: #054950;
+	color: #fff;
+	border-color: #054950;
+}
+.lightgreen{
+	background: #9cc;
+	width: 100%;
+	color: #fff;
+}
+.lightgreen{
+	background: #9cc;
+	width: 100%;
+	color: #fff;
+}
+.bottom textarea{
+	margin: 20px auto 10px auto;
+}
+.msglist{
+	display: inline-block;
+	width: 100%;
+	margin:20px 0 20px 0;
+	font-size: 12px;
+}
+.msg{
+	margin-left: -15px;
+}
+.msg span{
+	float: left;
+	font-size: 12px;
+	color: #aaa;
+}
+.content .form-group{
+	margin-top: 30px;
+	height: 30px;
+	line-height: 30px;
+}
+.extra-big{
+	padding: 0px;
+}
+.create-form{
+	margin:20px 0 20px 0;
+}
+.top .text img{
+	width: 100px;
+	border-radius: 50px;
+	border: 2px solid #fff;
+}
+.option{
+	display: flex;
+}
+.option div{
+	text-align: center;
+	border-bottom: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+}
+.option h3{
+	margin-bottom: 5px;
+}
+.middle p{
+	font-size: 16px;
+}
+.detail{
+	margin: 20px auto 20px auto;
+}
+.edit_form{
+	margin: 80px auto 20px auto;
+}
+.edit_form img, .edit_form input{
+	width: 100%;
+}
+.edit_form input, .edit_form select, .edit_form textarea, .edit_form button{
+	margin: 0px 0 10px 0;
+}
+#tags span{
+	background: #9cc;
+}
+.ntf{
+	border-bottom: 1px solid #ccc;
+	display: inline-block;
+	width: 100%;
+	margin-left: 0px;
+}

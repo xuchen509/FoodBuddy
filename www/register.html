@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/login.css">
+       <!--  <link rel="stylesheet" href="css/jquery.mobile-1.4.5.css" /> -->
+        <script src="js/jquery.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <title>Food Buddy</title>
+    </head>
+<body>
+    <div class="header">
+        <span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span><a href="index.html">Back to Log In</a>
+    </div>
+	<div class="login">
+		<form class="register" action="#" method="post">
+            <input type="text" name="fname" id="fname" placeholder="First Name" value="">
+                            <input type="text" name="lname" id="lname" placeholder="Last Name" value="">
+                            <input type="text" name="emailAddr" id="emailAddr" placeholder="Email Address" value="">
+                            <input type="text" name="usrname" id="usrname_f" placeholder="Username" value="">
+                            <input type="text" name="password" id="password_f" placeholder="Password" value="">
+                            <input type="text" name="confirm_password" id="confirm_password" placeholder="Re-enter Password" value="">
+                            <select name="select-gender" id="select-gender" data-native-menu="false">
+                                <option>Gender:</option>
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                                <option value="other">Other</option>
+                            </select>
+                            <button type="signup" value="signup" class="ui-btn">
+                            <span>Sign Up</span>
+                        </form>
+
+
+        <form class="login" action="#" method="post">
+            <input type="email" class="form-control" placeholder="Email" value="">
+            <input type="password" class="form-control"value="" placeholder="password" autocomplete="off">
+            <button type="submit" value="Login" class="btn btn-default">
+            <span>Log In</span>
+        </form>
+	</div>
+	 <p class="new"><a href="register.html" rel="external">create a new account</a></p>
+</body>
+</html>

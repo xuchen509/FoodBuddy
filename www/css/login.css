@@ -1,0 +1,64 @@
+/* log in page and register page*/
+/* main color platten: green 99cccc, orange ff9933, dark green 054950*/
+
+body{
+	background: #9cc;
+}
+.active{
+	display: block;
+}
+.inactive{
+	display: none;
+}
+
+.logo {
+	width: 100%;
+}
+.logo img{
+	width: 60%;
+	display: block;
+	margin: 15% auto 0 auto;
+}
+.logo h1{
+	text-align: center;
+	color: #fff;
+	font-size: 38px;
+}
+#login input, #register input{
+	margin: 20px;
+	width: 85%;
+	display: block;
+	padding: 10px;
+}
+#login button, #register button{
+	background: #054950;
+	border: 1px solid #054950;
+	width: 85% !important;
+	padding: 10px;
+	margin: 0px 20px 0px 20px;
+}
+span{
+	color: #fff;
+}
+.new{
+	display: block;
+	text-align: center;
+	padding: 10px;
+}
+a{
+	color: #fff;
+	text-decoration: none;
+	display: block;
+}
+.header{
+	color: #fff;
+	text-align: center;
+	margin: 40px auto auto 20px;
+}
+#register select{
+	width: 85%;
+	margin: 20px;
+}
+
+
+
